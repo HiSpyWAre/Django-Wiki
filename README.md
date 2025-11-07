@@ -13,6 +13,7 @@ A simple encyclopedia application built with **Django** (Python)that allows user
 - 🎲 View a random entry  
 - 🧱 Markdown rendered to HTML dynamically  
 
+
 ---
 ## 🗂️ Project Structure
 wiki/
