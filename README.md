@@ -1,7 +1,7 @@
 # 🧭 Django Wiki Project
 
-A simple encyclopedia application built with **Django** (Python)that allows users to view, search, create, edit, and explore pages written in Markdown format.
-
+A simple encyclopedia web application built with **Django** (Python) as part of *CS50’s Web Programming with Python and JavaScript*.  
+This project allows users to view, search, create, edit, and explore pages written in Markdown format.
 ---
 
 ## 🚀 Features
