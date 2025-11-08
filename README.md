@@ -17,27 +17,35 @@ This project allows users to view, search, create, edit, and explore pages writt
 ## 🗂️ Project Structure
 
 wiki/
-├─ encyclopedia/
-│ ├─ static/encyclopedia/styles.css
-│ ├─ templates/encyclopedia/
-│ │ ├─ index.html
-│ │ ├─ entry.html
-│ │ ├─ new.html
-│ │ ├─ edit.html
-│ │ ├─ search.html
-│ │ └─ notfound.html
-│ ├─ urls.py
-│ ├─ views.py
-│ ├─ util.py
-│ ├─ models.py
-│ └─ ...
-├─ entries/
-│ ├─ Python.md
-│ ├─ Git.md
-│ └─ ...
-├─ wiki/
-│ ├─ settings.py
-│ ├─ urls.py
-│ └─ ...
-├─ manage.py
-└─ README.md
+├── encyclopedia/
+│ ├── static/encyclopedia/styles.css
+│ ├── templates/encyclopedia/
+│ │ ├── index.html
+│ │ ├── entry.html
+│ │ ├── new.html
+│ │ ├── edit.html
+│ │ ├── search.html
+│ │ └── notfound.html
+│ ├── urls.py
+│ ├── views.py
+│ ├── util.py
+│ ├── models.py
+│ └── init.py
+│
+├── entries/
+│ ├── Python.md
+│ ├── Git.md
+│ ├── Django.md
+│ ├── HTML.md
+│ ├── CSS.md
+│ └── Java.md
+│
+├── wiki/
+│ ├── settings.py
+│ ├── urls.py
+│ ├── asgi.py
+│ ├── wsgi.py
+│ └── init.py
+│
+├── manage.py
+└── README.md
