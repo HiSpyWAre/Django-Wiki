@@ -25,15 +25,29 @@ def save_entry(title, content):
         default_storage.delete(filename)
     default_storage.save(filename, ContentFile(content))
 
-
 def get_entry(title):
-    """
-    Retrieves an encyclopedia entry by its title. If no such
-    entry exists, the function returns None.
-    """
+    filename = f"entries/{title}.md"
     try:
-        f = default_storage.open(f"entries/{title}.md")
-        return f.read().decode("utf-8")
+        with default_storage.open(filename) as f:
+            return f.read().decode("utf-8")
+    except UnicodeDecodeError:
+        with default_storage.open(filename) as f:
+            return f.read().decode("latin-1", errors="replace")
     except FileNotFoundError:
-        # return none if the entry doesnt exist
         return None
+
+
+# def get_entry(title):
+#     """
+#     Retrieves an encyclopedia entry by its title. If no such
+#     entry exists, the function returns None.
+#     """
+#     try:
+#         f = default_storage.open(f"entries/{title}.md")
+#         return f.read().decode("utf-8")
+#     except FileNotFoundError:
+#         # return none if the entry doesnt exist
+#         return None
+#     except UnicodeDecodeError:
+#         # fallback to Latin-1 or replace broken chars
+#         return f.read().decode("latin-1", errors="replace")
