@@ -16,12 +16,7 @@ This project allows users to view, search, create, edit, and explore pages writt
 ---
 ## 🗂️ Project Structure
 
-wiki/
-├── encyclopedia/
-│ ├── static/encyclopedia/styles.css
-│ ├── ...
-└── README.md
-
+```
 wiki/
 ├── encyclopedia/
 │ ├── static/encyclopedia/styles.css
