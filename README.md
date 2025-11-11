@@ -54,26 +54,17 @@ wiki/
 
 ##🧩 How It Works
 - Entries are stored as .md (Markdown) files in the entries/ directory.
-
 - Django reads these files using helper functions in util.py.
-
 - The markdown2 library converts Markdown into HTML.
-
 - Templates handle displaying, editing, and creating entries through standard Django views.
 
 ##🧠 Concepts Used
-
-Django URL routing
-
-Views and templates
-
-Template inheritance
-
-Django forms and request handling (GET & POST)
-
-Markdown rendering with markdown2
-
-Basic session handling (optional for extended features)
+- Django URL routing
+- Views and templates
+- Template inheritance
+- Django forms and request handling (GET & POST)
+- Markdown rendering with markdown2
+- Basic session handling (optional for extended features)
 
 ##📚 Credits
 
