@@ -52,13 +52,13 @@ wiki/
 └── README.md
 ```
 
-##🧩 How It Works
+## 🧩 How It Works
 - Entries are stored as .md (Markdown) files in the entries/ directory.
 - Django reads these files using helper functions in util.py.
 - The markdown2 library converts Markdown into HTML.
 - Templates handle displaying, editing, and creating entries through standard Django views.
 
-##🧠 Concepts Used
+## 🧠 Concepts Used
 - Django URL routing
 - Views and templates
 - Template inheritance
@@ -66,7 +66,7 @@ wiki/
 - Markdown rendering with markdown2
 - Basic session handling (optional for extended features)
 
-##📚 Credits
+## 📚 Credits
 
 This project is based on Project 1: Wiki from
 CS50’s Web Programming with Python and JavaScript
