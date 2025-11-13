@@ -72,19 +72,22 @@ wiki/
 ```bash
 git clone https://github.com/HiSpyWAre/Django-Wiki.git
 cd Django-Wiki
+```
 ### 2. Create and activate a virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate   # on Windows
 # or
 source venv/bin/activate  # on macOS/Linux
+```
 ### 3. Install dependencies
 ``` bash
 pip install django markdown2
+```
 4. Run the development server
 ```bash
 python manage.py runserver
-
+```
 ## 📚 Credits
 
 This project is based on Project 1: Wiki from
